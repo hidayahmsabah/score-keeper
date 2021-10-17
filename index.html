@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Score Keeper</h1>
+    <section>
+        <h2><span id="playerOne">0</span> to <span id="playerTwo">0</span></h2>
+        <p>Use the button below to keep the score</p>
+        <form action="">
+            <label for="game">Playing To</label>
+            <input type="number" id="game" name="game" placeholder="Choose Points" min="1">
+            <button class="start">Start</button>
+            <div class="buttons">
+                <button disabled=true id="playerOneBtn">Player One</button>
+                <button disabled=true id="playerTwoBtn">Player Two</button>
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+        <h2 class="deuce">Deuce !</h2>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

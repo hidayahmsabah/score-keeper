@@ -1,0 +1,111 @@
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 40%;
+    border: thin solid black;
+    padding-bottom: 2em;
+    margin: auto;
+    width: 50%;
+}
+
+h2{
+    font-size: 2em;
+}
+
+.deuce{
+    display: none;
+}
+
+.display{
+    display: block;
+}
+
+input[type="number"] {
+    margin-bottom: 7%;
+    width: 40%;
+    padding: 0.5em;
+    border-radius: 2em;
+    text-align: center;
+}
+
+input[type="reset"]{
+    background-color: crimson;
+    color: white;
+}
+
+
+.buttons {
+    display: flex;
+}
+
+.buttons button, 
+.buttons input{
+    flex: 1;
+    padding: 0.5em;
+    border: thin solid grey;;
+}
+
+button[id="playerOneBtn"]{
+    color: white;
+    background-color: plum;
+    border-right: none;
+}
+
+button[id="playerTwoBtn"]{
+    color: white;
+    background-color: #FF99C9;
+    border-right: none;
+}
+
+.buttons button:disabled{
+    color: lightgrey;
+    background-color: white;
+}
+
+.start{
+    padding: 0.5em;
+    border: thin solid grey;
+    display: inline-block;
+    width: 25%;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 1em;
+}
+
+form{
+    max-width: 60%;
+}
+
+button:active,
+div input:active{
+    background-color: white;
+    color: black;
+}
+
+/* @media screen and (min-width: 500px) {
+    section{
+        margin: auto 5%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    section{
+        margin: auto 10%;
+    }
+} */
+
+
+
+
+
